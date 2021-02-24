@@ -5,40 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang Chủ</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
     <div class="khung">
-        <header>Đầu trang</header>
-        <nav class="menu">
-            <ul class="ngang">
-                <li><a href="Trang_chu.html">Trang Chủ</a></li>
-                <li><a href="Nghe-si.html">Nghệ sĩ</a></li>
-                <li><a href="Bai_hat.html">Bài Hát</a></li>
-                <li><a href="video.html">Video</a></li>
-            </ul>             
-        </nav>
-        <div>
-            <article class="noi_dung">
-                <div class="text-title">
-                    <marquee behavior="" direction=""><h3>Hôm nay nghe gì nào ^-^  ___________________________________</h3></marquee>
-                    <div class="nghe-j">
-                        <h3>Hôm nay nghe gì</h3>
-                        <img src="anh/hãy trao cho anh.jpg" alt="hãy trao cho anh">
-                        <img src="anh/Lạc trôi.jpg" alt="lạc trôi">
-                        <img src="anh/nỗi nhớ tình tôi.jpg" alt="nỗi nhớ tình tôi">
-                        <img src="anh/lời xin lỗi của 1 dân chơi.jpg" alt="Lời xin lỗi của 1 dân chơi">
-                        <br><b>Hãy trao cho anh</b><b>lạc trôi</b><b>Nỗi nhớ mình tôi</b><b>lời xin lỗi của một dân chơi</b>
+        <header>
+            <img height="300" width="1200" src="anh/Banner-nhac.jpg" alt="">
+        </header>
+        <ul class="menu">              
+            <li><a href="Trang_chu.html">Trang Chủ</a></li>
+            <li><a href="Nghe-si.html">Nghệ sĩ</a></li>
+            <li><a href="Bai_hat.html">Bài Hát</a></li>
+            <li><a href="video.html">Video</a></li>
+        </ul>
+    <div>
+        <article class="noi_dung">
+                <!-- SLIDE -->
+            
+            <div id="aa" class="carousel slide slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#aa" data-slide-to="0" class="active"></li>
+                    <li data-target="#aa" data-slide-to="1"></li>
+                    <li data-target="#aa" data-slide-to="2"></li>
+                    <li data-target="#aa" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="anh/chúng ta sau này.jpg" alt="">
                     </div>
-                    <div class="Chia-cot">
-                        <div>
-                            <h1>thanuhf uymfukyanh</h1>
-                        </div>
+                    <div class="carousel-item">
+                        <img src="anh/chắp vá.jpg" alt="">
                     </div>
-                </div> 
-            </article>
-            <aside>Quảng cáo</aside>
-        </div>
-        <footer>Cuối trang</footer>
-    </div>
+                    <div class="carousel-item">
+                        <img src="anh/nơi ấy em ổn chứ.jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="anh/thế nào là tình yêu.jpg" alt="">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <!-- SLIDE -->
+
+            <h2>
+                <a title="Nghe gì hôm nay" href="https://www.nhaccuatui.com/chu-de.html">Nghe gì hôm nay</a>
+            </h2>
+
+        </article>
+
 </body>
 </html>
