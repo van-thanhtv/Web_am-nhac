@@ -1,6 +1,6 @@
 
 body{
-    width: 1200px;
+    width: 970px;
     background-color: rgb(244, 247, 250);
     margin: auto;
     border: 1px solid red;
@@ -12,7 +12,7 @@ h1{
 .chia-cot{
     display: flex;
     justify-content: space-between;
-    width: 1200px;
+    width: 1000px;
 
 }
 .trai{
@@ -25,17 +25,11 @@ h1{
     font-size: 25px;
 }
 .phai-1{
-    margin-top: 10px;
-    width: 300px;
-    height: 30px;
+   
 
-    padding-top:80px ;
+   
 }
 .phai .phai-2{
-    padding-top: 100px;
-    margin-top: 15px;
-    margin-left: 60px;
-    width: 50%;
 
 }
 img{
