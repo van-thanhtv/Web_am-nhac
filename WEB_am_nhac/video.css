@@ -1,0 +1,26 @@
+div.chia-cot{
+    display: flex;
+}
+div.video{
+    width: 100%;
+    text-align: center;
+}
+div h4{
+    margin-left: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.khung{
+    width: 900px;
+    height: 100%;
+    margin: 30px;
+}
+video{
+    margin-left: 35px;
+}
+h2{
+    color: rgb(199, 174, 174);
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 0 0 10px red;
+}

@@ -1,0 +1,58 @@
+body{
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+}
+div.khung{
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 0 10px red;
+    background-color: beige;
+    border-radius: 30px;
+    padding-top: 10px;
+}
+h2{
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 30px;
+}
+div.chia-cot{
+    display: flex;
+    margin-left: 20px;
+}
+div.chia-cot div input{
+    margin-top: 12px;
+    width: 220px;
+    height: 20px;
+}
+select{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 468px;
+    height: 30px;
+}
+label{
+    background-color: rgb(189, 184, 184);
+    background-size: 110px 50px;
+    color: rgb(21, 7, 212);
+    margin-left: 20px;
+    font-size: 15px;
+    padding: 4px 9px 5px 10px;
+}
+input{
+    margin-top: 10px;
+    width: 405px;
+    height: 20px;
+}
+button{
+    background-color: orange;
+    color: white;
+    margin: 0px 0px 10px 360px;
+}
+div.cuoi{
+    margin-top: 20px;
+    background-color: burlywood;
+    width: 100%;
+    border-radius: 0 0 30px 30px;
+}
