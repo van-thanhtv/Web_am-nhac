@@ -25,11 +25,16 @@ h1{
     font-size: 25px;
 }
 .phai-1{
+    margin-top: 10px;
+    width: 300px;
+    height: 30px;
+
     padding-top:80px ;
 }
 .phai .phai-2{
-    margin-right:;
     padding-top: 100px;
+    margin-top: 15px;
+    margin-left: 60px;
     width: 50%;
 
 }
