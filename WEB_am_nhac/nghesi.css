@@ -29,7 +29,8 @@ div.khung{
           
     
     margin: auto;
-    width: 1200px;
+    width: 800px;
+    height: 1200px;
 } 
 .khung ul li{
     display: inline;
