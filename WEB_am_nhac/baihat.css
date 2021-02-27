@@ -1,9 +1,8 @@
 
 body{
-    width: 1200px;
+    width: 870px;
     background-color: rgb(244, 247, 250);
     margin: auto;
-    border: 1px solid red;
 }
 h1{
     color: aqua;
@@ -11,33 +10,28 @@ h1{
 }
 .chia-cot{
     display: flex;
-    justify-content: space-between;
-    width: 1200px;
-
 }
-.trai{
-    width: 220px;
+.bai-hat{
+    border: 1px solid rgb(110, 110, 19);
+    border-radius: 0 40px 0 40px;
+    box-shadow: 0 0 10px red;
 }
-.phai{
-    display: flex;
-    width: 980px;
-    text-align: center;
-    font-size: 25px;
+div.bai-hat div img{
+width: 100px;
+height: 100px;
+margin-left: 20px;
+margin-top: 10px;
+margin-bottom: 10px;
 }
-.phai-1{
+div.bai-hat div audio{
     margin-top: 10px;
     width: 300px;
     height: 30px;
-
-    padding-top:80px ;
 }
-.phai .phai-2{
-    padding-top: 100px;
+div.chia-cot.bai-hat div.chia-cot{
+    width: 50%;
+}
+div.bai-hat div b{
     margin-top: 15px;
     margin-left: 60px;
-    width: 50%;
-
-}
-img{
-    width: 100%;
 }
