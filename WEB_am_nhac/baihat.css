@@ -12,15 +12,27 @@ h1{
     text-align: center;
 }
 div.chia-cot{
+    display: flex;
     margin: auto;
     box-shadow: 0 0 10px red;
     width: 1200px;
 }
 img{
+    padding: 10px;
     width: 100px;
     height: 100px;
 }
+.cot-trai{
+    display: block;
+    float: left;
+}
 .cot-phai{
+    
     float: right;
-
+}
+b{
+    
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 30px;
 }
