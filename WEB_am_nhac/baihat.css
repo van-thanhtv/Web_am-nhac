@@ -1,7 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;padding: 0px;
+    background-color: rgb(244, 247, 250);
+}
+h1{
+    color: aqua;
+    text-align: center;
+}
+div.chia-cot{
+    margin: auto;
+    box-shadow: 0 0 10px red;
+    width: 1200px;
+}
 img{
     width: 100px;
     height: 100px;
 }
-audio{
+.cot-phai{
     float: right;
+
 }
