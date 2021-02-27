@@ -16,6 +16,8 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }   
 h1{
+    font-family: unset;
+    font-size: 40px;
     color: aqua;
 }
 div.khung{
@@ -25,18 +27,16 @@ div.khung{
         background: linear-gradient(to right top, #65dfc9, #6cdbeb);
         display: flex;
         align-items: center;
-         
-          
-    
-    margin: auto;
-    width: 800px;
-    height: 1200px;
+         margin: auto;
+        width: 800px;
+        height: 1200px;
 } 
 .khung ul li{
     display: inline;
     float: left;
     margin: 0 30px 20px 0;
-
+    padding: 10px;
+    padding-top: 50px;
 }
 img{
     width: 200px;
