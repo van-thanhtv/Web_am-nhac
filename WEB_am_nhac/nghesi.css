@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 }
 body{
+    width: 100%;
     text-align: center;
     margin: 0px;padding: 0px;
     background-color: rgb(67, 151, 230);
@@ -23,7 +24,7 @@ h1{
 div.khung{
 
         font-family: "Poppins", sans-serif;
-        height: 600px;
+       
         background: linear-gradient(to right top, #65dfc9, #6cdbeb);
         display: flex;
         align-items: center;

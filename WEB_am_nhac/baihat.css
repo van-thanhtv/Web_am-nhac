@@ -1,38 +1,38 @@
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-}
+
 body{
-    margin: 0px;padding: 0px;
+    width: 1200px;
     background-color: rgb(244, 247, 250);
+    margin: auto;
+    border: 1px solid red;
 }
 h1{
     color: aqua;
     text-align: center;
 }
-div.chia-cot{
+.chia-cot{
     display: flex;
-    margin: auto;
-    box-shadow: 0 0 10px red;
+    justify-content: space-between;
     width: 1200px;
+
+}
+.trai{
+    width: 220px;
+}
+.phai{
+    display: flex;
+    width: 980px;
+    text-align: center;
+    font-size: 25px;
+}
+.phai-1{
+    padding-top:80px ;
+}
+.phai .phai-2{
+    margin-right:;
+    padding-top: 100px;
+    width: 50%;
+
 }
 img{
-    padding: 10px;
-    width: 100px;
-    height: 100px;
-}
-.cot-trai{
-    display: block;
-    float: left;
-}
-.cot-phai{
-    
-    float: right;
-}
-b{
-    
-    text-align: center;
-    padding-left: 20px;
-    padding-top: 30px;
+    width: 100%;
 }
