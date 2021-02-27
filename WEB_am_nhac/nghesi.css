@@ -27,9 +27,8 @@ div.khung{
         background: linear-gradient(to right top, #65dfc9, #6cdbeb);
         display: flex;
         align-items: center;
+<<<<<<< HEAD
          margin: auto;
-        width: 800px;
-        height: 1200px;
 } 
 .khung ul li{
     display: inline;
