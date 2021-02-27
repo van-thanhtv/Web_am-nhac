@@ -33,6 +33,7 @@ aside{
     height: 900px;
     background-color: rgb(231, 241, 185);
     float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 footer{
     width: 100%;
@@ -45,6 +46,7 @@ ul.ngang{
     list-style: none;
     padding: 0px;
     margin: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 ul.ngang>li{
     display: inline-block;
@@ -93,7 +95,7 @@ div.chia-cot{
     list-style: none;
     border-radius: 5px;
     width: 290px;
-    box-shadow: 0px 0px 10px red;
+    box-shadow: 0px 0px 10px rgb(212, 200, 200);
 }
 .v-menu a{
     background-image: url('https://raw.githubusercontent.com/sonmobi/PT16353-MOB-WEB1013/master/bh9/menu/ic_arr.png');
@@ -125,7 +127,9 @@ div.chia-cot{
     list-style: none;
     border-radius: 5px;
     width: 290px;
-    box-shadow: 0px 0px 10px rgb(44, 41, 219);
+    box-shadow: 0px 0px 10px rgb(220, 220, 248);
+
+
 }
 .v-menu-game a{
     background-image: url('https://raw.githubusercontent.com/sonmobi/PT16353-MOB-WEB1013/master/bh9/menu/ic_arr.png');
@@ -133,12 +137,13 @@ div.chia-cot{
     background-position-y: center;
     background-size: 10px;
     display: block;
-    border-bottom: 1px dotted orangered;
+    border-bottom: 1px dotted rgb(231, 221, 217);
     color: rgb(90, 235, 23);
     font-variant: small-caps;
     font-size: large;
     text-decoration: none;
     padding: 8px 5px 8px 30px;
+    margin-bottom: 6px;
 }
 .v-menu-game a:hover{
     background-image: url('https://raw.githubusercontent.com/sonmobi/PT16353-MOB-WEB1013/master/bh9/menu/ic_arr.png');
