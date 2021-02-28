@@ -222,10 +222,10 @@ div.bai-hat div b{
 }
 .buscar-caja {
     position: absolute;
-    top: 418px;
+    top: 420px;
     left: 1270px;
     transform: translate(-50%, -50%);
-    background: #f407fc;
+    background: #ffffff;
     height: 40px;
     border-radius: 40px;
     padding: 2px;
@@ -252,7 +252,7 @@ div.bai-hat div b{
     justify-content: center;
     align-items: center;
     transition: 0.4s;
-    color: white;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     margin: 0px;
    }
@@ -268,8 +268,8 @@ div.bai-hat div b{
     outline: none;
     float: left;
     padding: 0;
-    color: white;
-    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
     transition: 0.4s;
     line-height: 40px;
     width: 0px;
